@@ -142,18 +142,17 @@ section .mybutton:hover {
     margin-top: 500px;
     height: 650px;
 }
-
+footer {
+    font-family: 'Roboto Thin';
+    font-size: 2vh;
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    color: red;
+}
 @media screen and (max-width: 1140px) {
-    footer {
-        font-family: 'Roboto Thin';
-        font-size: 1vh;
-        text-align: left;
-        background-attachment: scroll;
-        background-position: 0% 0%;
-        position: fixed;
-        bottom: 0pt;
-        color: red;
-    }
     section nav {
         font-family: 'Roboto Thin';
         font-size: 24px;
@@ -190,16 +189,6 @@ section .mybutton:hover {
 }
 
 @media screen and (max-width: 760px) {
-    footer {
-        font-family: 'Roboto Thin';
-        font-size: 1vh;
-        text-align: left;
-        background-attachment: scroll;
-        background-position: 0% 0%;
-        position: fixed;
-        bottom: 0pt;
-        color: red;
-    }
     .features {
         display: block;
     }
@@ -223,10 +212,6 @@ section .mybutton:hover {
     section nav {
         font-size: 16px;
         line-height: 36px;
-    }
-
-    footer {
-        font-size: 10px;
     }
     header .logo a {
         height: 50px;
