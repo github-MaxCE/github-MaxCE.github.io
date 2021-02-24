@@ -5,13 +5,33 @@ body {
     background-size: cover;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 html {
     scroll-behavior: smooth;
 }
 
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #E0E0E0;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+}
 a {
+    font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
     color: aliceblue;
 }
@@ -143,14 +163,14 @@ section .mybutton:hover {
     height: 650px;
 }
 footer {
-    font-family: 'Roboto Thin';
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2vh;
     text-align: center;
     background-attachment: scroll;
     background-position: 0% 0%;
     position: fixed;
     bottom: 0pt;
-    color: red;
+    color: #00A0A0;
 }
 @media screen and (max-width: 1140px) {
     section nav {
