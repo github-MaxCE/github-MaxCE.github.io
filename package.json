@@ -1,6 +1,6 @@
 {
   "name": "slidev",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
