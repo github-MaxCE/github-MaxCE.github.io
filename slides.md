@@ -57,35 +57,12 @@ transition: slide-up
 # Les Types De Pollution
 
 Il existe différents types de pollution, notamment:
-
-<div>
-    <ol>
-        <li>
-            <span @click="$slidev.nav.go(4)" class="px-1 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-14">
-                Pollution de l'air: causée par les émissions de gaz à effet de serre, les particules en suspension, les oxydes d'azote, les composés organiques volatils, etc.
-            </span>
-        </li>
-        <br/>
-        <li>
-            <span class="px-1 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-14">
-                Pollution de l'eau: causée par la contamination des sources d'eau par des produits chimiques, des déchets industriels et municipaux, des pesticides, des métaux lourds, etc.
-            </span>
-        </li>
-        <br/>
-        <li>
-            <span class="px-1 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-14">
-                Pollution du sol: causée par la contamination des sols par des produits chimiques, des déchets industriels et municipaux, des métaux lourds, etc.
-            </span>
-        </li>
-        <br/>
-        <li>
-            <span class="px-1 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-14">
-              Pollution de radioactivité: causée par les activités nucléaires, les mines d'uranium, les déchets radioactifs, etc.
-            </span>
-        </li>
-    </ol>
-</div>
-
+<br/>
+1. Pollution de l'air: causée par les émissions de gaz à effet de serre, les particules en suspension, les oxydes d'azote, les composés organiques volatils, etc.
+1. Pollution de l'eau: causée par la contamination des sources d'eau par des produits chimiques, des déchets industriels et municipaux, des pesticides, des métaux lourds, etc.
+1. Pollution du sol: causée par la contamination des sols par des produits chimiques, des déchets industriels et municipaux, des métaux lourds, etc.
+1. Pollution de radioactivité: causée par les activités nucléaires, les mines d'uranium, les déchets radioactifs, etc.
+<br/>
 Ces sont quelques exemples de types de pollution, mais il en existe d'autres, chacun ayant des impacts différents sur l'environnement et la santé des êtres vivants.
 
 
@@ -115,6 +92,7 @@ La pollution de l'air est la présence de substances dans l'atmosphère qui sont
 
 ---
 transition: slide-down
+hide: true
 layout: image-left
 image: /air-pollution-right.jpg
 ---
@@ -157,6 +135,7 @@ La pollution de l'eau est la présence dans l'eau de substances ou de conditions
 
 ---
 transition: slide-down
+hide: true
 layout: image-down
 image: /water-pollution-up.jpg
 ---
@@ -198,6 +177,7 @@ La pollution du sol est la présence sur le sol de substances ou de conditions q
 
 ---
 transition: slide-down
+hide: true
 layout: image-left
 image: /air-pollution-right.jpg
 ---
@@ -238,6 +218,7 @@ La pollution radioactive désigne l'introduction dans l'environnement de niveaux
 
 ---
 transition: slide-down
+hide: true
 ---
 
 <br/>
