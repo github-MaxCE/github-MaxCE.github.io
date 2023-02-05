@@ -2,7 +2,6 @@
 theme: seriph
 class: text-center
 highlighter: shiki
-aspectRatio: '16/9'
 colorSchema: 'dark'
 monaco: 'dev'
 download: false
