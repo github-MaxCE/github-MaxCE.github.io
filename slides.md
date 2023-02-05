@@ -2,6 +2,10 @@
 theme: seriph
 class: text-center
 highlighter: shiki
+aspectRatio: '16/9'
+colorSchema: 'dark'
+monaco: 'dev'
+download: false
 info: |
   ## La pollution
   Presentation sur la pollution pour SVT
@@ -10,6 +14,7 @@ drawings:
 transition: slide-left
 css: unocss
 title: La Pollution
+background: /intro-splash.jpg
 canvasWidth: 980
 ---
 
@@ -87,7 +92,7 @@ Ces sont quelques exemples de types de pollution, mais il en existe d'autres, ch
 ---
 transition: slide-left
 layout: image-right
-image: /pollution-left.jpg
+image: /air-pollution-left.jpg
 ---
 
 # Pollution de L'Air
@@ -111,7 +116,7 @@ La pollution de l'air est la présence de substances dans l'atmosphère qui sont
 ---
 transition: slide-down
 layout: image-left
-image: /pollution-right.jpg
+image: /air-pollution-right.jpg
 ---
 
 Les principales substances nocives dans la pollution de l'air comprennent les gaz à effet de serre, les particules en suspension, les oxydes d'azote, les composés organiques volatils et les métaux lourds. Les effets de la pollution de l'air peuvent inclure des maladies respiratoires et cardiaques, un accroissement du risque de cancer, ainsi qu'une réduction de la qualité de vie et des impacts négatifs sur l'environnement.
@@ -129,10 +134,9 @@ Les principales substances nocives dans la pollution de l'air comprennent les ga
 
 ---
 transition: slide-down
+layout: image-up
+image: /water-pollution-down.jpg
 ---
-
-<br/>
-<br/>
 
 La pollution de l'eau est la présence dans l'eau de substances ou de conditions qui la rendent nocive pour la vie aquatique, la santé humaine ou l'utilisation prévue. Les principales substances qui causent la pollution de l'eau incluent les produits chimiques industriels, les métaux lourds, les nutriments excessifs, les bactéries et les virus.
 
@@ -153,12 +157,11 @@ La pollution de l'eau est la présence dans l'eau de substances ou de conditions
 
 ---
 transition: slide-down
+layout: image-down
+image: /water-pollution-up.jpg
 ---
 
-<br/>
-<br/>
-
-La pollution de l'eau peut avoir plusieurs sources. Par exemple, les rejets industriels de produits chimiques dangereux dans les rivières et les lacs peuvent polluer l'eau. L'utilisation excessive de pesticides et d'engrais dans l'agriculture peut également entraîner une accumulation de nutriments dans les eaux souterraines et les cours d'eau. Les déchets solides mal gérés peuvent également contaminer les eaux de surface avec des matières dangereuses telles que les plastiques et les métaux lourds. Les fuites de pétrole dans les océans peuvent également polluer l'eau en cas d'accidents de transport maritime ou de la production pétrolière offshore. Enfin, les déversements d'eaux usées non traitées dans les rivières et les lacs peuvent également contenir des bactéries dangereuses pour la santé humaine.
+La pollution de l'eau peut être causée par des activités humaines telles que les industries, l'agriculture, les déchets solides, les fuites de pétrole et les déversements d'eaux usées non traitées. Les principales substances qui causent la pollution de l'eau incluent les produits chimiques industriels, les métaux lourds, les nutriments excessifs et les bactéries.
 
 <style>
     * {
@@ -170,10 +173,11 @@ La pollution de l'eau peut avoir plusieurs sources. Par exemple, les rejets indu
     }
 </style>
 
+
 ---
 transition: slide-left
 layout: image-right
-image: /pollution-left.jpg
+image: /air-pollution-left.jpg
 ---
 
 # Pollution du Sol
@@ -195,12 +199,52 @@ La pollution du sol est la présence sur le sol de substances ou de conditions q
 ---
 transition: slide-down
 layout: image-left
-image: /pollution-right.jpg
+image: /air-pollution-right.jpg
 ---
 
 <br/>
 
 Les causes de la pollution du sol peuvent inclure les déchets industriels et municipaux, les fuites de produits chimiques dangereux, les activités minières, l'agriculture intensive, les rejets de déchets radioactifs, les déversements de carburants et d'huiles, les incendies de déchets industriels et domestiques, les déchets ménagers mal gérés et les événements climatiques extrêmes tels que les inondations et les glissements de terrain.
+
+<style>
+    * {
+        text-align: center;
+    }
+
+    p {
+        font-size: 150%;
+    }
+</style>
+
+---
+transition: slide-left
+---
+
+# Pollution du Radioactivité
+
+<br/>
+
+La pollution radioactive désigne l'introduction dans l'environnement de niveaux anormalement élevés de radioactivité. Elle peut être causée par des événements tels que les accidents dans les centrales nucléaires, les explosions d'armes nucléaires, les fuites de matières radioactives dans les mines, les activités de démantèlement de centrales nucléaires et les rejets de déchets radioactifs. La pollution radioactive peut avoir de graves conséquences sur la santé humaine et l'environnement.
+
+<style>
+    * {
+        text-align: center;
+    }
+
+    p {
+        font-size: 150%;
+    }
+</style>
+
+---
+transition: slide-down
+---
+
+<br/>
+<br/>
+
+
+Les effets de la pollution radioactive sur la santé humaine peuvent inclure l'augmentation du risque de cancer, de malformations congénitales et de dommages génétiques. Les personnes qui travaillent avec des matières radioactives ou qui vivent à proximité de sources de pollution radioactive sont particulièrement exposées. Les conséquences pour l'environnement peuvent inclure la contamination des sols et des ressources en eau, ce qui peut rendre certaines zones inhabitables pour de nombreuses années. La pollution radioactive peut également affecter les écosystèmes, la faune et la flore, en perturbant les chaînes alimentaires et en tuant les espèces végétales et animales.
 
 <style>
     * {
