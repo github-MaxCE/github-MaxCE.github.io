@@ -55,6 +55,8 @@ transition: slide-up
 
 # Les Types De Pollution
 
+<br/>
+
 Il existe différents types de pollution, notamment:
 <br/>
 1. Pollution de l'air: causée par les émissions de gaz à effet de serre, les particules en suspension, les oxydes d'azote, les composés organiques volatils, etc.
